@@ -1,0 +1,112 @@
+--- !ruby/object:Gem::Specification 
+name: net-dns
+version: !ruby/object:Gem::Version 
+  version: "0.4"
+platform: ruby
+authors: 
+- Marco Ceresa
+autorequire: 
+bindir: bin
+cert_chain: 
+date: 2007-05-12 00:00:00 -07:00
+default_executable: 
+dependencies: []
+
+description: A pure Ruby DNS library, similar to the Perl Net::DNS library
+email: ceresa@gmail.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README
+- AUTHORS
+- INSTALL
+- THANKS
+files: 
+- demo
+- demo/check_soa.rb
+- demo/threads.rb
+- README
+- setup.rb
+- CHANGELOG
+- gemspec
+- Rakefile
+- AUTHORS
+- lib
+- lib/net
+- lib/net/dns
+- lib/net/dns/names
+- lib/net/dns/names/names.rb
+- lib/net/dns/resolver
+- lib/net/dns/resolver/timeouts.rb
+- lib/net/dns/resolver/socks.rb
+- lib/net/dns/resolver.rb
+- lib/net/dns/dns.rb
+- lib/net/dns/rr.rb
+- lib/net/dns/question.rb
+- lib/net/dns/header.rb
+- lib/net/dns/packet.rb
+- lib/net/dns/rr
+- lib/net/dns/rr/null.rb
+- lib/net/dns/rr/types.rb
+- lib/net/dns/rr/hinfo.rb
+- lib/net/dns/rr/mr.rb
+- lib/net/dns/rr/soa.rb
+- lib/net/dns/rr/mx.rb
+- lib/net/dns/rr/txt.rb
+- lib/net/dns/rr/cname.rb
+- lib/net/dns/rr/a.rb
+- lib/net/dns/rr/aaaa.rb
+- lib/net/dns/rr/ns.rb
+- lib/net/dns/rr/classes.rb
+- lib/net/dns/rr/ptr.rb
+- lib/net/dns/rr/srv.rb
+- test
+- test/net
+- test/net/dns
+- test/net/dns/test_packet.rb
+- test/net/dns/test_rr.rb
+- test/net/dns/resolver
+- test/net/dns/resolver/test_timeouts.rb
+- test/net/dns/test_header.rb
+- test/net/dns/test_question.rb
+- test/net/dns/rr
+- test/net/dns/rr/test_types.rb
+- test/net/dns/rr/test_ns.rb
+- test/net/dns/rr/test_a.rb
+- test/net/dns/rr/test_classes.rb
+- THANKS
+- INSTALL
+has_rdoc: true
+homepage: http://net-dns.rubyforge.org/
+licenses: []
+
+post_install_message: 
+rdoc_options: []
+
+require_paths: 
+- bin
+- bin
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">"
+    - !ruby/object:Gem::Version 
+      version: 0.0.0
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: 
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 1
+summary: Pure Ruby DNS library
+test_files: []
+
